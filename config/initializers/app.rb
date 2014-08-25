@@ -1,0 +1,1 @@
+Yodlee_API_URLS = YAML::load(File.read(File.join(Rails.root, "config", "app.yml")))

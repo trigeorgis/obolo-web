@@ -1,0 +1,27 @@
+#headerwrap
+  .container
+    %center
+      #logo
+      %div
+      %center
+        %h2
+          Many a little makes a mickle.
+        %form.form-inline{:action => "/submit", :method => "post", :role => "form"}
+          .form-group
+            %input.form-control{:name => "email", :placeholder => "Please enter your email address", :size => "40", :type => "email"}/
+            %button.btn.btn-success.btn-lg{:type => "submit"} Notify me!
+      .container
+        .row.green
+          .col-lg-4.col-md-4.col-sm-4
+            = image_tag('card.png', height: 120)
+            %h4 Seamless investing
+            %p You spend with your card. We round up the amount and invest the change. Yes, it's that simple.
+          .col-lg-4.col-md-4.col-sm-4
+            = image_tag('coins.png', height: 120)
+            %h4 Manage risk
+            %p Choose your investment targets and we deal with the rest. We use various funds to match your appetite. Remember higher returns come with higher risk.
+          .col-lg-4.col-md-4.col-sm-4
+            = image_tag('graph.png', height: 120)
+            %h4 Watch it grow
+            %p
+              Monitor your investments, move your money between funds and watch your portfolio grow.

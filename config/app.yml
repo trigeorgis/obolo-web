@@ -1,0 +1,14 @@
+END_POINT:
+  serviceBaseUrl: "https://rest.developer.yodlee.com/services/srest/restserver/v1.0"
+
+  URL_COBRAND_SESSION_TOKEN: "/authenticate/coblogin"
+
+  URL_USER_SESSION_TOKEN: "/authenticate/login"
+
+  URL_SEARCH_SITES: "/jsonsdk/SiteTraversal/searchSite"
+
+  URL_GET_SITE_LOGIN_FORM: "/jsonsdk/SiteAccountManagement/getSiteLoginForm"
+  
+  URL_GET_ITEM_SUMMARIES: "/jsonsdk/DataService/getItemSummaries"
+
+  URL_ADD_SITE_ACCOUNT: "/jsonsdk/SiteAccountManagement/addSiteAccount"

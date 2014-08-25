@@ -1,0 +1,68 @@
+/*@import "less/mixins.less";*/
+
+@pink: #be1a8d;
+
+.custom-highlight{
+    background: @pink;
+    color: #fff;
+    text-shadow: -1px 1px 1px darken(@pink, 15%);
+}
+
+/* Apply custom highlight */
+::-moz-selection{ .custom-highlight; }
+::selection { .custom-highlight; }
+
+h1, h2 {
+	font-weight: 700;
+	font-family: Telex;
+
+}
+
+.center {
+	margin:0 auto;
+	float:none;
+}
+
+body {
+	font-family: Telex;
+
+	background: url("/assets/background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/img/background.jpg', sizingMethod='scale');
+	-ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='/static/img/background.jpg', sizingMethod='scale')";
+
+    color: white;
+}
+
+#logo {
+	background:  image-url("obolo.png");
+	height: 280px;
+	width: 572px;
+	background-size: 512px;
+	background-repeat:no-repeat;
+
+	margin-top: 100px;
+	margin-bottom: 50px;
+}
+
+
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.green {
+	margin-top: 50px;
+	padding: 20px;
+	width: 100%;
+	background: rgba(171, 209, 129, .63);
+	border-radius: 20px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
