@@ -47,5 +47,5 @@ gem "less-rails" #Sprockets (what Rails 3.1 uses for its asset pipeline) support
 gem "twitter-bootstrap-rails"
 
 # Authentication
-gem "devise", '~> 3.3.0'
+gem "devise", '~> 3.2.0'
 gem "simple_token_authentication"
